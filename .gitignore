@@ -1,0 +1,12 @@
+.vscode
+__pycache__/
+.pytest_cache/
+.DS_Store
+.idea
+.mypy_cache
+.ipynb_checkpoints
+venv/
+db/
+.neptune/
+.dmypy.json
+.env
