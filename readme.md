@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/thejaminator/typesafe_parmap/actions/workflows/dev.yml/badge.svg)](https://github.com/thejaminator/be_engineer_interview/actions/workflows/dev.yml)
+
 # Introduction
 
 This is an assignment for LeadIQ's Senior Software Engineer position.
@@ -40,7 +42,7 @@ E.g. even if the user does not select the `company_description` insight, we stil
 
 ## Getting started
 To start, clone this repository
-Create a virtual environment on python 3.9 and install the requirements.
+Create a virtual environment on python 3.8 / 3.9 and install the requirements.
 
 ```
 python -m venv venv
