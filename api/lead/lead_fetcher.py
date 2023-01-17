@@ -14,6 +14,7 @@ def get_lead_information_from_all_sources(email: str) -> LeadInformation:
         company_name=alpha.company_name or beta.company_name,
         location=alpha.location or beta.location,
         linkedin_url=alpha.linkedin_url or beta.linkedin_url,
+        email=email,
     )
     return merged
 
@@ -28,6 +29,7 @@ def get_lead_information_from_alpha(email: str) -> LeadInformation:
         company_name=None,
         location="San Francisco",
         linkedin_url="https://www.linkedin.com/in/johndoe",
+        email=email,
     )
 
 
@@ -41,4 +43,5 @@ def get_lead_information_from_beta(email: str) -> LeadInformation:
         company_name="Company",
         location=None,
         linkedin_url="https://www.linkedin.com/in/johndoe",
+        email=email,
     )

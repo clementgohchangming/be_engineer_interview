@@ -1,6 +1,7 @@
 # flask app using strawberry graphql
 from flask import Flask
 from strawberry.flask.views import GraphQLView
+from api.graphql.strawberry_schema import graphql_schema
 
 if __name__ == "__main__":
     app = Flask(__name__)
@@ -9,7 +10,7 @@ if __name__ == "__main__":
         "/graphql",
         view_func=GraphQLView.as_view(
             "graphql",
-            schema=schema,
+            schema=graphql_schema,
             graphiql=True,
         ),
     )
