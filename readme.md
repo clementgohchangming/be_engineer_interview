@@ -111,7 +111,7 @@ Guiding questions
 - we are a machine learning focused company. we will need to save the lead information and insights that the user has in view.
 - the existing insights may take in more parameters in the future.
 - we will need to add more insights in the future.
-- decide the responsibility of the frontend and backend.
+- the responsibility of the frontend and backend has to be clear.
 2. Code out your suggested changes. If you have issues running the tests, please contact us.
 If you find yourself spending more than 2 hours on this, you can just submit your suggested changes and we will discuss it in the interview.
 3. Suggest ways to track / monitor / validate that we are saving the lead information and insights that the user has in view.
